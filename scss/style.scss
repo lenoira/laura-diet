@@ -18,10 +18,13 @@ header {
   color: var(--text);
   margin: auto;
   text-align: center;
+  // Fix Header
+  // position: sticky;
+  // top: 0;
+  // background: white;
   h2 {
     a {
       font-size: 3rem;
-      // font-family: var(--font-familytitle);
       span {
         animation: bounce 2s;
         display: inline-block;
@@ -122,9 +125,9 @@ header {
 }
 .offer-separator {
   height: 2px;
-  width: 70px;
+  width: 90px;
   margin: 1rem auto;
-  background: #333;
+  background: var(--hint);
 }
 // who
 .container-who {
@@ -152,7 +155,7 @@ header {
     margin-bottom: 2rem;
   }
   strong {
-    color: green;
+    color: var(--primary);
   }
 }
 // contact

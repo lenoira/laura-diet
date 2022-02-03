@@ -192,9 +192,9 @@ header ul li {
 
 .offer-separator {
   height: 2px;
-  width: 70px;
+  width: 90px;
   margin: 1rem auto;
-  background: #333;
+  background: var(--hint);
 }
 
 .container-who {
@@ -225,7 +225,7 @@ header ul li {
   margin-bottom: 2rem;
 }
 .who-content-text strong {
-  color: green;
+  color: var(--primary);
 }
 
 .contact {
