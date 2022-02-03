@@ -1,0 +1,13 @@
+:root {
+  --font-family: "Open Sans", sans-serif;
+  --font-familytitle: "Dancing Script", cursive;
+  --light: #4eca7c;
+  --primary: #3c975a;
+  --dark: #2980b9;
+  --text: #333;
+  --background: #fafafa;
+  --hint: #999;
+  --border: #ddd;
+}
+
+/*# sourceMappingURL=variables.css.map */

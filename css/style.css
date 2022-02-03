@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text);
+  font-size: 1.6rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1rem 0 2rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+@keyframes bounce {
+  0% {
+    transform: rotate(-45deg);
+  }
+  10% {
+    transform: rotate(-35deg);
+  }
+  70% {
+    transform: rotate(20deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  90% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/* Landscape phones and down */
+/* Landscape phone to portrait tablet */
+/* Portrait tablet to landscape and desktop */
+/* Large desktop */
+.vpcontainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  color: var(--text);
+  margin: auto;
+  text-align: center;
+}
+header h2 a {
+  font-size: 3rem;
+}
+header h2 a span {
+  animation: bounce 2s;
+  display: inline-block;
+}
+header ul {
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 1.8rem;
+}
+header ul li {
+  margin: auto;
+  padding-left: 3rem;
+  font-weight: 600;
+}
+@media (max-width: 480px) {
+  header {
+    flex-flow: column;
+  }
+}
+
+.vp-logo {
+  font-size: 1.8rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.vp-logo i {
+  color: var(--primary);
+  margin: 0rem 1rem;
+  font-size: 2.5rem;
+}
+
+.vp {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/vitalii-pavlyshynets-kcRFW-Hje8Y-unsplash.jpg) center center/cover;
+  min-height: 90vh;
+}
+
+.vp-content {
+  text-align: center;
+  max-width: 800px;
+  color: white;
+  padding: 1rem;
+}
+.vp-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+}
+.vp-content p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+
+.offer {
+  padding: 5rem 1rem;
+}
+
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.offer-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+@media (max-width: 480px) {
+  .offer-list {
+    flex-flow: column;
+  }
+}
+
+.offer-elem {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: white;
+  margin: 1rem;
+  padding: 0.5rem;
+  flex: 1;
+  text-align: center;
+}
+
+.title {
+  font-weight: 200;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.offer-elem-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.offer-elem-text {
+  padding: 2rem;
+  text-align: center;
+}
+
+.offer-separator {
+  height: 2px;
+  width: 70px;
+  margin: 1rem auto;
+  background: #333;
+}
+
+.container-who {
+  display: flex;
+  flex-flow: row nowrap;
+  min-height: 600px;
+}
+
+.who-content-img {
+  flex: 1;
+  background: url(../img/jon-ly-UIPjy2XRoJQ-unsplash.jpg) center center/cover;
+  min-height: 200px;
+  border-radius: 20px;
+}
+
+.who-content-text {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.who-content-text p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+.who-content-text h2 {
+  margin-bottom: 2rem;
+}
+.who-content-text strong {
+  color: green;
+}
+
+.contact {
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(to right, var(--primary), var(--light));
+  color: white;
+}
+.contact .social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contact .social {
+  margin: 2rem 2rem;
+}
+.contact .social i {
+  font-size: 4rem;
+}
+.contact .social p {
+  font-size: 2rem;
+  margin: 0;
+}
+.contact .social a {
+  color: white;
+  font-size: 2rem;
+  display: block;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
