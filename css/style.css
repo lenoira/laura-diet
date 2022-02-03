@@ -170,6 +170,7 @@ header ul li {
   padding: 0.5rem;
   flex: 1;
   text-align: center;
+  box-shadow: var(--shadow-1);
 }
 
 .title {
@@ -229,8 +230,6 @@ header ul li {
 
 .contact {
   margin: 2rem 0 0 0;
-  display: flex;
-  flex-direction: row;
   font-size: 2rem;
   padding: 1rem 2rem;
   justify-content: center;
@@ -238,22 +237,21 @@ header ul li {
   background: linear-gradient(to right, var(--primary), var(--light));
   color: white;
 }
-.contact .social-container {
+
+.social-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.contact .social {
+
+.social {
   margin: 2rem 2rem;
 }
-.contact .social i {
+.social i {
   font-size: 4rem;
+  padding: 0 2rem;
 }
-.contact .social p {
-  font-size: 2rem;
-  margin: 0;
-}
-.contact .social a {
+.social a {
   color: white;
   font-size: 2rem;
   display: block;
