@@ -43,6 +43,7 @@ header {
   }
   @include xs {
     flex-flow: column;
+    padding: 0.2;
   }
 }
 .vp-logo {
@@ -210,6 +211,6 @@ header {
   color: var(--primary);
   i {
     padding-right: 1rem;
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 }

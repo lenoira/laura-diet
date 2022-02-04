@@ -99,6 +99,7 @@ header ul li {
 @media (max-width: 480px) {
   header {
     flex-flow: column;
+    padding: 0.2;
   }
 }
 
@@ -289,7 +290,7 @@ header ul li {
 }
 .contactus i {
   padding-right: 1rem;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
