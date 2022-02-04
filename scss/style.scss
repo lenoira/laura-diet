@@ -114,6 +114,9 @@ header {
   font-size: 3rem;
   margin-bottom: 3rem;
   text-align: center;
+  @include xs {
+    margin-bottom: 1rem;
+  }
 }
 .offer-elem-img {
   width: 100%;
@@ -169,22 +172,44 @@ header {
   text-align: center;
   background: linear-gradient(to right, var(--primary), var(--light));
   color: white;
+  @include xs {
+    padding: 0rem 1rem;
+  }
 }
 .social-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  @include xs {
+    flex-flow: column;
+  }
 }
 .social {
   margin: 2rem 2rem;
   i {
     font-size: 4rem;
     padding: 0 2rem;
+    @include xs {
+      font-size: 2rem;
+      padding: 0 1rem;
+      margin: 0rem 0.2rem;
+    }
   }
   a {
     color: white;
     font-size: 2rem;
     display: block;
     margin: 0;
+  }
+}
+.contactus {
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  color: var(--primary);
+  i {
+    padding-right: 1rem;
+    font-size: 3rem;
   }
 }
