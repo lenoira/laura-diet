@@ -18,10 +18,6 @@ header {
   color: var(--text);
   margin: auto;
   text-align: center;
-  // Fix Header
-  // position: sticky;
-  // top: 0;
-  // background: white;
   h2 {
     a {
       font-size: 3rem;
@@ -165,14 +161,15 @@ header {
 // contact
 .contact {
   margin: 2rem 0 0 0;
-  // display: flex;
-  // flex-direction: row;
   font-size: 2rem;
   padding: 1rem 2rem;
   justify-content: center;
   text-align: center;
   background: linear-gradient(to right, var(--primary), var(--light));
   color: white;
+  // Fix Header
+  // position: sticky;
+  // top: 90%;
   @include xs {
     padding: 0rem 1rem;
   }
