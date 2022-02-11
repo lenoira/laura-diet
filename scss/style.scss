@@ -27,30 +27,49 @@ header {
       }
     }
   }
-  ul {
-    display: flex;
-    flex-flow: row nowrap;
-    font-size: 1.8rem;
-    li {
-      margin: auto;
-      padding-left: 3rem;
-      font-weight: 600;
-    }
-  }
   @include xs {
     flex-flow: column;
     padding: 0.2;
   }
 }
-.vp-logo {
-  font-size: 1.8rem;
+nav {
   display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  ul {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 1.8rem;
+    padding: 1rem 0rem;
+    li {
+      // margin: auto;
+      padding: 0rem 3rem;
+      font-weight: 600;
+      @include xs {
+        padding: 0rem 1rem;
+      }
+    }
+  }
+}
+.logo {
+  font-size: 1.8rem;
+  margin: 2rem 0rem;
   i {
     color: var(--primary);
     margin: 0rem 1rem;
     font-size: 2.5rem;
+  }
+}
+.contactus {
+  font-size: 1.7rem;
+  text-align: right;
+  color: var(--primary);
+  padding: 0.5rem 0rem;
+  i {
+    padding-right: 1rem;
+  }
+  @include xs {
+    display: none;
   }
 }
 .vp {
@@ -107,12 +126,12 @@ header {
   box-shadow: var(--shadow-1);
 }
 .title {
-  font-weight: 200;
+  // font-weight: 200;
   font-size: 3rem;
-  margin-bottom: 3rem;
+  // margin-bottom: 2rem;
   text-align: center;
   @include xs {
-    margin-bottom: 1rem;
+    // margin-bottom: 1rem;
   }
 }
 .offer-elem-img {
@@ -167,11 +186,11 @@ header {
   text-align: center;
   background: linear-gradient(to right, var(--primary), var(--light));
   color: white;
-  // Fix Header
-  // position: sticky;
-  // top: 90%;
   @include xs {
     padding: 0rem 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 }
 .social-container {
@@ -179,35 +198,22 @@ header {
   flex-direction: row;
   justify-content: center;
   @include xs {
-    flex-flow: column;
+    // flex-flow: column;
   }
 }
 .social {
   margin: 2rem 2rem;
-  i {
-    font-size: 4rem;
-    padding: 0 2rem;
-    @include xs {
-      font-size: 2rem;
-      padding: 0 1rem;
-      margin: 0rem 0.2rem;
-    }
-  }
   a {
     color: white;
-    font-size: 2rem;
+    font-size: 4rem;
     display: block;
     margin: 0;
-  }
-}
-.contactus {
-  font-size: 1.5rem;
-  margin: 0;
-  text-align: center;
-  padding: 0;
-  color: var(--primary);
-  i {
-    padding-right: 1rem;
-    font-size: 1.5rem;
+    i {
+      padding: 0 2rem;
+      @include xs {
+        padding: 0 1rem;
+        margin: 0rem 0.2rem;
+      }
+    }
   }
 }

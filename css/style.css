@@ -261,16 +261,6 @@ header h2 a span {
   animation: bounce 2s;
   display: inline-block;
 }
-header ul {
-  display: flex;
-  flex-flow: row nowrap;
-  font-size: 1.8rem;
-}
-header ul li {
-  margin: auto;
-  padding-left: 3rem;
-  font-weight: 600;
-}
 @media (max-width: 480px) {
   header {
     flex-flow: column;
@@ -278,16 +268,50 @@ header ul li {
   }
 }
 
-.vp-logo {
-  font-size: 1.8rem;
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav ul {
   display: flex;
   flex-flow: row nowrap;
-  align-items: center;
+  font-size: 1.8rem;
+  padding: 1rem 0rem;
 }
-.vp-logo i {
+nav ul li {
+  padding: 0rem 3rem;
+  font-weight: 600;
+}
+@media (max-width: 480px) {
+  nav ul li {
+    padding: 0rem 1rem;
+  }
+}
+
+.logo {
+  font-size: 1.8rem;
+  margin: 2rem 0rem;
+}
+.logo i {
   color: var(--primary);
   margin: 0rem 1rem;
   font-size: 2.5rem;
+}
+
+.contactus {
+  font-size: 1.7rem;
+  text-align: right;
+  color: var(--primary);
+  padding: 0.5rem 0rem;
+}
+.contactus i {
+  padding-right: 1rem;
+}
+@media (max-width: 480px) {
+  .contactus {
+    display: none;
+  }
 }
 
 .vp {
@@ -350,17 +374,9 @@ header ul li {
 }
 
 .title {
-  font-weight: 200;
   font-size: 3rem;
-  margin-bottom: 3rem;
   text-align: center;
 }
-@media (max-width: 480px) {
-  .title {
-    margin-bottom: 1rem;
-  }
-}
-
 .offer-elem-img {
   width: 100%;
   border-radius: 10px;
@@ -421,6 +437,9 @@ header ul li {
 @media (max-width: 480px) {
   .contact {
     padding: 0rem 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 }
 
@@ -429,43 +448,23 @@ header ul li {
   flex-direction: row;
   justify-content: center;
 }
-@media (max-width: 480px) {
-  .social-container {
-    flex-flow: column;
-  }
-}
-
 .social {
   margin: 2rem 2rem;
 }
-.social i {
-  font-size: 4rem;
-  padding: 0 2rem;
-}
-@media (max-width: 480px) {
-  .social i {
-    font-size: 2rem;
-    padding: 0 1rem;
-    margin: 0rem 0.2rem;
-  }
-}
 .social a {
   color: white;
-  font-size: 2rem;
+  font-size: 4rem;
   display: block;
   margin: 0;
 }
-
-.contactus {
-  font-size: 1.5rem;
-  margin: 0;
-  text-align: center;
-  padding: 0;
-  color: var(--primary);
+.social a i {
+  padding: 0 2rem;
 }
-.contactus i {
-  padding-right: 1rem;
-  font-size: 1.5rem;
+@media (max-width: 480px) {
+  .social a i {
+    padding: 0 1rem;
+    margin: 0rem 0.2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
