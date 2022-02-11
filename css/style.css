@@ -399,6 +399,11 @@ nav ul li {
   flex-flow: row nowrap;
   min-height: 600px;
 }
+@media (max-width: 480px) {
+  .container-who {
+    margin-bottom: 10rem;
+  }
+}
 
 .who-content-img {
   flex: 1;
