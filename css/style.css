@@ -255,7 +255,7 @@ header {
   text-align: center;
 }
 header h2 a {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 header h2 a span {
   animation: bounce 2s;
@@ -290,13 +290,12 @@ nav ul li {
 }
 
 .logo {
-  font-size: 1.8rem;
   margin: 2rem 0rem;
 }
 .logo i {
   color: var(--primary);
   margin: 0rem 1rem;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .contactus {
@@ -307,6 +306,7 @@ nav ul li {
 }
 .contactus i {
   padding-right: 1rem;
+  font-size: 2.5rem;
 }
 @media (max-width: 480px) {
   .contactus {
