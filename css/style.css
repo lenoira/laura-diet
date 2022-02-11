@@ -289,6 +289,12 @@ nav ul li {
   }
 }
 
+@media (max-width: 480px) {
+  .cache-button {
+    display: none;
+  }
+}
+
 .logo {
   margin: 2rem 0rem;
 }

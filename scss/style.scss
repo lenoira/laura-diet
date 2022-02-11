@@ -51,6 +51,11 @@ nav {
     }
   }
 }
+.cache-button {
+  @include xs {
+    display: none;
+  }
+}
 .logo {
   margin: 2rem 0rem;
   i {
