@@ -61,34 +61,33 @@ img {
     transform: rotate(0deg);
   }
 }
-.content {
+.vp-anime {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 16rem;
+  height: 40rem;
   overflow: hidden;
   font-family: "Lato", sans-serif;
   font-size: 3.5rem;
   line-height: 4rem;
-  color: #ecf0f1;
 }
-.content__container {
+.vp-anime__container {
   font-weight: 600;
   overflow: hidden;
   height: 4rem;
   padding: 0 4rem;
 }
-.content__container:before {
+.vp-anime__container:before {
   content: "[";
   left: 0;
 }
-.content__container:after {
+.vp-anime__container:after {
   content: "]";
   position: absolute;
   right: 0;
 }
-.content__container:after, .content__container:before {
+.vp-anime__container:after, .vp-anime__container:before {
   position: absolute;
   top: 0;
   color: #16a085;
@@ -101,12 +100,12 @@ img {
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
-.content__container__text {
+.vp-anime__container__text {
   display: inline;
   float: left;
   margin: 0;
 }
-.content__container__list {
+.vp-anime__container__list {
   margin-top: 0;
   padding-left: 1.1rem;
   text-align: left;
@@ -118,7 +117,7 @@ img {
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
-.content__container__list__item {
+.vp-anime__container__list__item {
   line-height: 4rem;
   margin: 0;
 }
@@ -321,30 +320,42 @@ nav ul li {
 }
 
 .vp {
-  flex: auto;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background: url(../img/vitalii-pavlyshynets-kcRFW-Hje8Y-unsplash.jpg) center center/cover;
+  justify-content: center;
+  color: white;
   min-height: 90vh;
+}
+.vp video {
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .vp-content {
   text-align: center;
   max-width: 800px;
-  color: white;
   padding: 1rem;
-}
-.vp-content h1 {
-  font-size: 2.8rem;
-  margin-bottom: 2rem;
+  position: relative;
 }
 .vp-content p {
   font-size: 1.8rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   line-height: 2rem;
+  padding-bottom: 1rem;
+}
+.vp-content a {
+  font-size: 2.5rem;
+  color: white;
+}
+.vp-content h3 {
+  padding-bottom: 2rem;
 }
 
 .offer {
@@ -383,6 +394,7 @@ nav ul li {
   font-size: 3rem;
   text-align: center;
 }
+
 .offer-elem-img {
   width: 100%;
   border-radius: 10px;

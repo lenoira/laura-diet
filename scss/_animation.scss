@@ -18,18 +18,17 @@
     transform: rotate(0deg);
   }
 }
-.content {
+.vp-anime {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 16rem;
+  height: 40rem;
   overflow: hidden;
-
   font-family: "Lato", sans-serif;
   font-size: 3.5rem;
   line-height: 4rem;
-  color: #ecf0f1;
+  // color: #ecf0f1;
 
   &__container {
     font-weight: 600;

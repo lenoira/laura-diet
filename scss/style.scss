@@ -78,29 +78,52 @@ nav {
   }
 }
 .vp {
-  flex: auto;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background: url(../img/vitalii-pavlyshynets-kcRFW-Hje8Y-unsplash.jpg) center
-    center/cover;
+  justify-content: center;
+  color: white;
+
+  // flex-direction: column;
+  // align-items: center;
+  // background: url(../img/vitalii-pavlyshynets-kcRFW-Hje8Y-unsplash.jpg) center
+  //   center/cover;
   min-height: 90vh;
+  video {
+    object-fit: cover;
+    position: absolute;
+    // top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 .vp-content {
   text-align: center;
   max-width: 800px;
-  color: white;
+  // color: white;
   padding: 1rem;
-  h1 {
-    font-size: 2.8rem;
-    margin-bottom: 2rem;
-  }
+  position: relative;
+
+  // h1 {
+  //   font-size: 2.8rem;
+  //   margin-bottom: 2rem;
+  // }
   p {
     font-size: 1.8rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
     line-height: 2rem;
+    padding-bottom: 1rem;
+  }
+  a {
+    font-size: 2.5rem;
+    color: white;
+  }
+  h3 {
+    padding-bottom: 2rem;
   }
 }
 // offer
@@ -131,13 +154,8 @@ nav {
   box-shadow: var(--shadow-1);
 }
 .title {
-  // font-weight: 200;
   font-size: 3rem;
-  // margin-bottom: 2rem;
   text-align: center;
-  @include xs {
-    // margin-bottom: 1rem;
-  }
 }
 .offer-elem-img {
   width: 100%;
