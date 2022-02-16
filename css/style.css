@@ -470,6 +470,11 @@ nav ul li {
   display: block;
   margin: 0;
 }
+@media (max-width: 480px) {
+  .social a {
+    font-size: 3rem;
+  }
+}
 .social a i {
   padding: 0 2rem;
 }
