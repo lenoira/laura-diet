@@ -69,8 +69,8 @@ img {
   height: 40rem;
   overflow: hidden;
   font-family: "Lato", sans-serif;
-  font-size: 3.5rem;
-  line-height: 4rem;
+  font-size: 4rem;
+  line-height: 4.5rem;
 }
 .vp-anime__container {
   font-weight: 600;
@@ -260,6 +260,9 @@ header h2 a span {
   animation: bounce 2s;
   display: inline-block;
 }
+header h2 :hover {
+  color: var(--primary);
+}
 @media (max-width: 480px) {
   header {
     flex-flow: column;
@@ -275,6 +278,7 @@ nav {
 nav ul {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: center;
   font-size: 1.8rem;
   padding: 1rem 0rem;
 }
@@ -282,15 +286,12 @@ nav ul li {
   padding: 0rem 3rem;
   font-weight: 600;
 }
+nav ul li :hover {
+  color: var(--primary);
+}
 @media (max-width: 480px) {
   nav ul li {
     padding: 0rem 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .cache-button {
-    display: none;
   }
 }
 
@@ -308,6 +309,9 @@ nav ul li {
   text-align: right;
   color: var(--primary);
   padding: 0.5rem 0rem;
+}
+.contactus :hover {
+  color: var(--primary);
 }
 .contactus i {
   padding-right: 1rem;
@@ -344,15 +348,18 @@ nav ul li {
   position: relative;
 }
 .vp-content p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 400;
   letter-spacing: 1px;
-  line-height: 2rem;
+  line-height: 3rem;
   padding-bottom: 1rem;
 }
 .vp-content a {
   font-size: 2.5rem;
   color: white;
+}
+.vp-content a :hover {
+  color: var(--primary);
 }
 .vp-content h3 {
   padding-bottom: 2rem;
@@ -458,6 +465,9 @@ nav ul li {
   background: linear-gradient(to right, var(--primary), var(--light));
   color: white;
   border-radius: 25px 25px 0px 0px;
+}
+.contact :hover {
+  color: var(--primary);
 }
 @media (max-width: 480px) {
   .contact {
