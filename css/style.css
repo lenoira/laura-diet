@@ -408,6 +408,7 @@ nav ul li {
 @media (max-width: 480px) {
   .container-who {
     margin-bottom: 10rem;
+    flex-flow: column-reverse;
   }
 }
 
@@ -451,6 +452,7 @@ nav ul li {
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-radius: 50px;
   }
 }
 
