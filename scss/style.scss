@@ -58,11 +58,6 @@ nav {
     }
   }
 }
-// .cache-button {
-//   @include xs {
-//     display: none;
-//   }
-// }
 .logo {
   margin: 2rem 0rem;
   i {
@@ -71,7 +66,7 @@ nav {
     font-size: 4rem;
   }
 }
-.contactus {
+.phone-number {
   font-size: 1.7rem;
   text-align: right;
   color: var(--primary);
@@ -95,11 +90,6 @@ nav {
   align-items: center;
   justify-content: center;
   color: white;
-
-  // flex-direction: column;
-  // align-items: center;
-  // background: url(../img/vitalii-pavlyshynets-kcRFW-Hje8Y-unsplash.jpg) center
-  //   center/cover;
   min-height: 90vh;
   video {
     object-fit: cover;
@@ -113,14 +103,8 @@ nav {
 .vp-content {
   text-align: center;
   max-width: 800px;
-  // color: white;
   padding: 1rem;
   position: relative;
-
-  // h1 {
-  //   font-size: 2.8rem;
-  //   margin-bottom: 2rem;
-  // }
   p {
     font-size: 2rem;
     font-weight: 400;
@@ -137,6 +121,9 @@ nav {
   }
   h3 {
     padding-bottom: 2rem;
+  }
+  button:hover {
+    background: var(--light);
   }
 }
 // offer
@@ -218,8 +205,8 @@ nav {
     color: var(--primary);
   }
 }
-// contact
-.contact {
+// social
+.social {
   margin: 2rem 0 0 0;
   font-size: 2rem;
   padding: 1rem 2rem;
@@ -246,7 +233,7 @@ nav {
     // flex-flow: column;
   }
 }
-.social {
+.social-media {
   margin: 2rem 2rem;
   a {
     color: white;
@@ -264,4 +251,51 @@ nav {
       }
     }
   }
+}
+/* form-contact */
+.contact {
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-form {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contact-form input {
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: var(--text);
+  outline: 0;
+  margin-bottom: 1rem;
+}
+.contact-form button {
+  display: block;
+  margin: 1.5rem auto;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 30px;
+  background: var(--primary);
+  color: white;
+  font-weight: 700;
+  font-size: 1.3rem;
+  min-width: 20rem;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background: var(--light);
+}
+.btn {
+  display: inline-block;
+  padding: 0.5rem 2.5rem;
+  border-radius: 30px;
+  font-weight: 0.7rem;
+  font-size: 1.8rem;
+  background: var(--primary);
+  border: 0px;
 }
