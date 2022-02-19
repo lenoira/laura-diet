@@ -438,6 +438,7 @@ nav ul li :hover {
   background: url(../img/gian-cescon-00ByEXKcSkA-unsplash.jpg) center center/cover;
   min-height: 200px;
   border-radius: 20px;
+  margin: 0rem 1rem;
 }
 
 .who-content-text {
