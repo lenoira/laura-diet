@@ -177,7 +177,6 @@ nav {
   flex-flow: row nowrap;
   min-height: 600px;
   @include xs {
-    margin-bottom: 10rem;
     flex-flow: column-reverse;
   }
 }
@@ -258,6 +257,9 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include xs {
+    margin-bottom: 10rem;
+  }
 }
 .contact-form {
   max-width: 400px;
@@ -292,10 +294,10 @@ nav {
 }
 .btn {
   display: inline-block;
-  padding: 0.5rem 2.5rem;
+  padding: 0.3rem 2.5rem;
   border-radius: 30px;
-  font-weight: 0.7rem;
-  font-size: 1.8rem;
+  font-weight: 0.5rem;
+  font-size: 1.6rem;
   background: var(--primary);
   border: 0px;
 }
