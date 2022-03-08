@@ -113,7 +113,7 @@ nav {
     padding-bottom: 1rem;
   }
   a {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: white;
     :hover {
       color: var(--primary);
@@ -280,7 +280,7 @@ nav {
 .contact-form button {
   display: block;
   margin: 1.5rem auto;
-  padding: 0.8rem 2rem;
+  padding: 0.8rem 1rem;
   border: 0;
   border-radius: 30px;
   background: var(--primary);
@@ -295,7 +295,7 @@ nav {
 }
 .btn {
   display: inline-block;
-  padding: 0.3rem 2.5rem;
+  padding: 0.2rem 2rem;
   border-radius: 30px;
   font-weight: 0.5rem;
   font-size: 1.6rem;
