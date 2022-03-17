@@ -335,7 +335,7 @@ nav ul li :hover {
 }
 @media (max-width: 480px) {
   .vp {
-    min-height: 55vh;
+    min-height: 58vh;
   }
 }
 .vp video {
