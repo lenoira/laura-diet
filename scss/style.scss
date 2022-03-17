@@ -91,6 +91,9 @@ nav {
   justify-content: center;
   color: white;
   min-height: 50vh;
+  @include xs {
+    min-height: 80vh;
+  }
   video {
     object-fit: cover;
     position: absolute;

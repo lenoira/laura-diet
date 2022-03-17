@@ -333,6 +333,11 @@ nav ul li :hover {
   color: white;
   min-height: 50vh;
 }
+@media (max-width: 480px) {
+  .vp {
+    min-height: 80vh;
+  }
+}
 .vp video {
   object-fit: cover;
   position: absolute;
