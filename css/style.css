@@ -282,6 +282,11 @@ nav ul {
   font-size: 1.8rem;
   padding: 1rem 0rem;
 }
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
 nav ul li {
   padding: 0rem 3rem;
   font-weight: 600;
@@ -291,7 +296,8 @@ nav ul li :hover {
 }
 @media (max-width: 480px) {
   nav ul li {
-    padding: 0rem 1rem;
+    padding: 0.8rem 1rem;
+    font-weight: 400;
   }
 }
 
@@ -447,6 +453,21 @@ nav ul li :hover {
   background: var(--hint);
 }
 
+.tarifdescription {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.tarifdescription div {
+  padding: 0rem 5rem;
+}
+@media (max-width: 480px) {
+  .tarifdescription div {
+    padding: 0rem 1.2rem;
+  }
+}
+
 .container-who {
   display: flex;
   flex-flow: row nowrap;
@@ -544,7 +565,7 @@ nav ul li :hover {
 }
 @media (max-width: 480px) {
   .contact {
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
   }
 }
 
