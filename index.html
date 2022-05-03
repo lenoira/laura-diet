@@ -33,8 +33,10 @@
                 <a href="tel:+33681685188"><i class="fas fa-phone-square-alt"></i>06.81.68.51.88</a>
             </div>
             <ul>
-                <li><a href="#offer">Tarifs et offres</a></li>
                 <li><a href="#team">Qui suis-je</a></li>
+                <li><a href="#offer">Prestations</a></li>
+                <li><a href="#tarifs">Tarifs</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -54,9 +56,10 @@
                 </div>
             </div>
             <p>Une <strong>professionnelle</strong> avec plus de 10 ans d'expérience à votre écoute</p>
-            <p>Toulon - Le Pradet - Carqueiranne - La Garde - La Valette - La Crau</p>
+            <p>À domicile sur le secteur Le Pradet - La Garde- Carqueiranne</p>
+            <p>Au cabinet : 65 avenue Sadi Carnot 83130 LA Garde</p>
             <br>
-            <button class="btn" type="submit"><a href="#contact">Rendez-vous</a></button>
+            <button class="btn" type="submit"><a href="#contact">Demande de rendez-vous</a></button>
         </div>  
     </section>
     <section id="offer" class="offer">
@@ -94,17 +97,32 @@
             </ul>
         </div>
     </section>
+    <section id="tarifs" class="tarifs">
+        <h2 class="title">Tarifs</h2>
+        <div class="tarifdescription">
+        <div class="adomicile">
+            <h3>A domicile</h3>
+            <p>Bilan diététique (durée 1h30) : 60 €</p>
+            <p>Suivi ( durée 1h) : 50 €</p>
+            <p>+/- frais km</p>
+        </div>
+        <div class="aucabinet">
+            <h3>Au cabinet</h3>
+            <p>Bilan diététique (durée 1h30) : 50 €</p>
+            <p>Suivi ( durée 1h) : 45 €</p>
+        </div> 
+    </div>    
+    </section>
     <section id="team" class="who">
         <h2 class="title">Qui suis-je</h2>
         <div class="container-who">
             <div class="who-content-img"></div>
             <div class="who-content-text bg-dark">
-                <h2>Je suis Laura diététicienne <strong>depuis plus de 10 ans</strong> et maman de deux petites filles.</h2>
-                <p>J'aimerais vous aider à retrouver une alimentation équilibrée mais aussi gourmande. Terminée la mode des régimes ! Place à une alimentation plaisir et sans frustration !</p>
-                <p>Mes expériences professionnelles m'ont permis de me spécialiser notamment dans <strong>l'alimentation de l'enfant</strong> (diversification alimentaire) mais aussi dans l'alimentation de <strong>diverses pathologies</strong> (Dénutrition, cancer, diabète...)</p>
-                <h3>Consultation à domicile</h3>
-                <p>Vous souhaitez un suivi diététique à domicile ?</p>
-                <p>Je me déplace chez vous, pour être au plus proche de vos habitudes.</p>
+                <h3>Je suis Laura, j'ai 35 ans et diplômée d'un <strong>BTS diététique</strong> depuis plus de 10ans.</h3>
+                <p>J'aimerai vous aider à retrouver une alimentation équilibrée mais aussi gourmande !</p>
+                <p>Avec moi, pas de régime ! <strong>Mais une alimentation plaisir et surtout sans frustration !</strong></p>
+                <p>Mes expériences professionnelles m'ont permis de me spécialiser dans l'alimentation de l'enfant mais aussi dans l'alimentation dite thérapeutique ( alimentation du diabétique, dénutrition, alimentation et cancer...)</p>
+                <p>Je vous propose des consultations à votre domicile, pout être au plus prêt de vos habitudes alimentaires, ou alors au cabinet situé à La Garde. C'est vous qui décidez ! Alors contactez moi :) </p>
          </div>
      </div>
     </section>
@@ -113,6 +131,7 @@
         <form class="contact-form" name="contact-form" netlify>
             <input type="text" name="name" placeholder="Nom Prénom"/>
             <input type="text" name="phone-number" placeholder="Numéro de téléphone" />
+            <input type="text" name="email" placeholder="Email" />
             <input type="text" name="text" placeholder="Motif de la demande et disponibilités" />
             <button type="submit"><i class="fas fa-paper-plane postfix"></i></button>
         </form>
