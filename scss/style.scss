@@ -96,7 +96,7 @@ nav {
   color: white;
   min-height: 70vh;
   @include xs {
-    min-height: 58vh;
+    min-height: 80vh;
   }
 
   video {
@@ -112,6 +112,7 @@ nav {
   text-align: center;
   max-width: 800px;
   padding: 1rem;
+  top:5rem;
   position: relative;
   p {
     font-size: 2rem;
