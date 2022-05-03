@@ -454,6 +454,10 @@ nav ul li :hover {
   background: var(--hint);
 }
 
+.tarifs {
+  margin-bottom: 2rem;
+}
+
 .tarifdescription {
   display: flex;
   flex-direction: row;
@@ -607,7 +611,7 @@ nav ul li :hover {
 
 .btn {
   display: inline-block;
-  padding: 0.2rem 2rem;
+  padding: 0.4rem 2rem;
   border-radius: 30px;
   font-weight: 0.5rem;
   font-size: 1.6rem;
