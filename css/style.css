@@ -282,11 +282,6 @@ nav ul {
   font-size: 1.8rem;
   padding: 1rem 0rem;
 }
-@media (max-width: 480px) {
-  nav ul {
-    flex-direction: column;
-  }
-}
 nav ul li {
   padding: 0rem 3rem;
   font-weight: 600;
