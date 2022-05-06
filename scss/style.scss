@@ -188,8 +188,11 @@ nav {
   }
 }
 .title {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
+  @include xs {
+    font-size: 3rem;
+  }
 }
 .offer-elem-img {
   width: 100%;

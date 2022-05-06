@@ -433,8 +433,13 @@ nav ul li :hover {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
+}
+@media (max-width: 480px) {
+  .title {
+    font-size: 3rem;
+  }
 }
 
 .offer-elem-img {
