@@ -482,6 +482,7 @@ nav ul li :hover {
 @media (max-width: 480px) {
   .container-who {
     flex-flow: column-reverse;
+    margin-bottom: 5rem;
   }
 }
 

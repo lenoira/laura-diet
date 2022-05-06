@@ -232,6 +232,7 @@ nav {
   min-height: 600px;
   @include xs {
     flex-flow: column-reverse;
+    margin-bottom: 5rem;
   }
 }
 .who-content-img {
