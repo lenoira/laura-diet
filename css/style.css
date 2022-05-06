@@ -356,11 +356,16 @@ nav ul li :hover {
   position: relative;
 }
 .vp-content p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 3rem;
   padding-bottom: 1rem;
+}
+@media (max-width: 480px) {
+  .vp-content p {
+    font-size: 1.6rem;
+  }
 }
 .vp-content a {
   font-size: 2rem;
@@ -617,8 +622,12 @@ nav ul li :hover {
   border-radius: 30px;
   font-weight: 0.5rem;
   font-size: 1.6rem;
-  background: var(--primary);
+  background: #0596DE;
   border: 0px;
+  margin: 0.8rem;
+}
+.btn a img {
+  height: 2.3rem;
 }
 
 footer {
