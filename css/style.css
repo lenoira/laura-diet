@@ -267,6 +267,7 @@ header h2 :hover {
   header {
     flex-flow: column;
     padding: 0.2;
+    padding: 0rem 0rem;
   }
 }
 
