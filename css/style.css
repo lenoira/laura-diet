@@ -378,7 +378,7 @@ nav ul li :hover {
   padding-bottom: 2rem;
 }
 .vp-content button:hover {
-  background: var(--light);
+  background: #72afce;
 }
 
 .section {
